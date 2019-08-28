@@ -5,7 +5,7 @@ class Person {
     this.name = name;
     this.age = age;
     this.height = height;
-    this.planet = 'earth';
+    this.planet = 'Earth';
   }
 
   changeName(newName) {
@@ -61,3 +61,8 @@ console.log('Age:', newStudent.age);
 console.log('Origin:', newStudent.planet);
 console.log('Height:', newStudent.height);
 console.log('ID #:', newStudent.id);
+
+//Person > Student/Employee
+
+//Homework:
+//Vehicle > Sedan/Hatchback > Brand
